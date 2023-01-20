@@ -1,0 +1,25 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.error-header {
+  font-size: 48px;
+  color: red;
+  padding: 30px;
+}
+
+.error-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message p {
+  font-size: 18px;
+  padding: 10px;
+}

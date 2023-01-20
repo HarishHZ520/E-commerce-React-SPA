@@ -1,0 +1,154 @@
+.store-container {
+  max-width: 100vw;
+  margin: auto;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+.store-container__btn {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 30px;
+}
+.store-container__btn a {
+  text-decoration: none;
+  color: #ab8262;
+  font-weight: 600;
+  border: 1px solid #ab8262;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f1f0ed;
+}
+.store-container__btn a:hover {
+  color: #088178;
+  border: 1px solid #088178;
+}
+.saree-shop-container {
+  display: flex;
+  width: 75vw;
+  height: 400px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.container-text-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.container-text-header {
+  text-align: center;
+  font-size: 32px;
+  padding: 10px;
+}
+.container-text-description {
+  font-size: 18px;
+  text-align: justify;
+  padding: 10px;
+  line-height: 1.5;
+}
+.container-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.container-add_cart {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 10px;
+}
+.add_cart {
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ab8262;
+  border-radius: 10px;
+  color: #f1f0ed;
+  font-weight: 500;
+  border: 1px solid #ab8262;
+}
+.add_cart:hover {
+  background-color: #f1f0ed;
+  color: #ab8262;
+  font-weight: 600;
+}
+@media (max-width: 900px) {
+  .shopBox-container {
+    width: 90vw;
+  }
+  .saree-shop-container {
+    width: 85vw;
+    height: 300px;
+  }
+  .saree-shop-image {
+    width: 300px;
+    height: 300px;
+  }
+  .price,
+  .rating {
+    font-size: 18px;
+  }
+}
+@media (max-width: 700px) {
+  .saree-shop-image {
+    width: 200px;
+    height: 200px;
+  }
+  .saree-shop-container {
+    width: 100%;
+    height: 200px;
+  }
+  .container-text-side {
+    padding: 2px;
+  }
+  .container-text-header {
+    font-size: 18px;
+    padding: 5px;
+  }
+  .container-text-description {
+    font-size: 14px;
+    line-height: 1.2;
+    padding: 5px;
+  }
+  .container-price {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  .container-add_cart {
+    padding: 5px;
+  }
+  .price,
+  .rating {
+    font-size: 14px;
+  }
+  .add_cart {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .saree-shop-container {
+    height: 100%;
+    width: 60vw;
+    flex-direction: column;
+    align-items: center;
+  }
+  .store-container__btn {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}

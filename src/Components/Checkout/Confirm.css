@@ -1,0 +1,46 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+.placeOrder-container {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+  background-color: #ab8262d7;
+  color: #f1f0ed;
+  padding: 20px;
+  text-align: center;
+}
+.thankyou {
+  padding: 10px;
+  font-size: 24px;
+}
+.placeOrder-container p {
+  padding: 10px;
+  font-size: 16px;
+}
+.dont-worry {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.placeOrder-container a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #088178;
+  color: #f1f0ed;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.placeOrder-container a:hover {
+  transform: scale(1.2);
+}

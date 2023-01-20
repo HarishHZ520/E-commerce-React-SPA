@@ -1,0 +1,53 @@
+.feature {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+}
+
+.freeshipping,
+.onlineorder,
+.savemoney {
+  width: 200px;
+  margin: 20px;
+  padding: 20px 15px;
+  box-shadow: 10px 10px 34px rgba(253, 221, 228, 0.3);
+  border-radius: 5px;
+  border: 1px solid #c3ff99;
+  transition: 0.5s ease;
+}
+
+.freeshipping:hover {
+  box-shadow: 5px 5px 54px #fddde4;
+}
+.onlineorder:hover {
+  box-shadow: 5px 5px 54px #cdebbc;
+}
+.savemoney:hover {
+  box-shadow: 5px 5px 54px #d1e8f2;
+}
+
+.feature h4 {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #fddde4;
+}
+
+.onlineorder h4 {
+  background-color: #cdebbc;
+}
+
+.savemoney h4 {
+  background-color: #d1e8f2;
+}

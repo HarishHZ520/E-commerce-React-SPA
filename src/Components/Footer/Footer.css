@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+
+.footer {
+  font-family: "Slabo 27px", serif;
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  border-top: 1px solid #ab8262;
+}
+.footer-contact {
+  text-decoration: none;
+  color: #ab8262;
+  font-weight: 600;
+  cursor: pointer;
+}
+.footer-contact:hover {
+  color: #088178;
+}
+.details {
+  margin-top: 10px;
+}
+.about,
+.account {
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  margin: 40px 0px 0px 0px;
+  font-size: 18px;
+  padding: 5px;
+}
+.col-1 {
+  margin: 0px;
+}
+
+.col h3,
+p {
+  padding: 5px 0px;
+  font-size: 16px;
+}
+.col h3 {
+  margin: 10px 0px;
+}
+h3 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.followus {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.social-links {
+  color: #ab8262;
+  padding: 3px 0px;
+  transition: 0.3s ease;
+}
+
+.about a,
+.account a {
+  text-decoration: none;
+  padding: 5px 0px;
+  color: black;
+  transition: 0.3s ease;
+}
+
+#img {
+  padding: 5px 0px;
+}
+
+.social-links:hover,
+.about a:hover,
+.account a:hover {
+  color: #088178;
+}
+.apps {
+  padding-top: 10px;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  margin: 0px 20px 10px 20px;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subs-head {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.subs-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.subs-input {
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #f1f0ed !important;
+  border-radius: 10px;
+  border: 1px solid #ab8262;
+  font-weight: 400;
+}
+.subs-input:focus {
+  background-color: #f1f0ed !important;
+  border: 1px solid #ab8262;
+}
+.subs-btn {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ab8262;
+  border-radius: 25px;
+  background-color: #f1f0ed;
+  color: #ab8262;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+.subs-btn:hover {
+  background-color: #ab8262;
+  color: #f1f0ed;
+  cursor: pointer;
+}
+@media (max-width: 850px) {
+  .col {
+    font-size: 14px;
+  }
+  .col h3,
+  p {
+    font-size: 14px;
+  }
+  .subs-head {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .col {
+    margin: 20px 0 0 0;
+  }
+  .col-1 {
+    margin: 20px 0 0 0;
+  }
+}

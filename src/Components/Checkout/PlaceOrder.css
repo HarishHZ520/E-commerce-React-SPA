@@ -1,0 +1,126 @@
+.final-container {
+  width: 60vw;
+  margin: auto;
+  border: 1px solid #ab8262;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f1f0ed;
+}
+.final-container-head {
+  font-size: 28px;
+  text-align: center;
+  border-bottom: 3px solid #ab8262;
+  padding: 10px;
+  color: #ab8262;
+  margin-bottom: 10px;
+}
+.item-final-container {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  border: 1px solid #ab8262;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.item-final-container strong {
+  align-self: center;
+}
+.item-final-con-head {
+  font-size: 18px;
+  display: flex;
+  gap: 5px;
+}
+.final-amount p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: 800;
+}
+.final-amount p span {
+  font-size: 24px;
+}
+.address-container {
+  width: 100%;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  border: 1px solid #ab8262;
+  border-radius: 10px;
+  padding: 10px;
+}
+.address-container h2 {
+  text-align: center;
+  font-size: 28px;
+  border-bottom: 5px solid #ab8262;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.address-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.address-content p {
+  font-size: 18px;
+}
+.confirm-btn {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.confirm-btn button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #ab8262;
+  border-radius: 20px;
+  color: #f1f0ed;
+  font-size: 24px;
+}
+.confirm-btn button:hover {
+  cursor: pointer;
+  background-color: #088178;
+}
+@media (max-width: 800px) {
+  .final-container {
+    width: 80vw;
+  }
+}
+@media (max-width: 600px) {
+  .final-container {
+    width: 95vw;
+    padding: 10px;
+  }
+  .item-final-container {
+    font-size: 16px;
+  }
+  .item-final-con-head {
+    font-size: 16px;
+  }
+  .final-amount p {
+    font-size: 14px;
+  }
+  .final-amount p span {
+    font-size: 18px;
+  }
+  .address-container h2 {
+    font-size: 24px;
+  }
+  .address-container p {
+    font-size: 16px;
+  }
+  .confirm-btn button {
+    font-size: 18px;
+  }
+}

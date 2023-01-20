@@ -1,0 +1,118 @@
+.mainbg {
+  background-image: url(../../Images/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.mainbg-header {
+  font-size: 30px;
+  color: #ffeeaf;
+  padding-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.span {
+  color: orangered;
+  font-weight: bold;
+  font-size: 30px;
+}
+.mainbg-header__heading {
+  font-size: 30px;
+  color: #088178;
+  padding-bottom: 30px;
+  font-weight: 800;
+}
+
+.mainbg-para {
+  color: #ffeeaf;
+  font-size: 20px;
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+
+.mainbg-shop__btn {
+  background-image: url("../../Images/images/img/button.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  color: #c3ff99;
+  margin-top: 10px;
+  padding: 14px 60px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .mainbg {
+    padding: 35px;
+    padding-bottom: 25px;
+  }
+  .mainbg-header {
+    font-size: 28px;
+    padding-bottom: 25px;
+  }
+  .mainbg-header__heading {
+    font-size: 28px;
+    padding-bottom: 25px;
+  }
+  span {
+    font-size: 28px;
+  }
+  .mainbg-para {
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .mainbg {
+    padding: 20px;
+  }
+  .mainbg-header {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  .mainbg-header__heading {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  span {
+    font-size: 24px;
+  }
+  .mainbg-para {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .mainbg {
+    padding: 15px;
+  }
+  .mainbg-header {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .mainbg-header__heading {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  span {
+    font-size: 18px;
+  }
+  .mainbg-para {
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  .mainbg-shop__btn {
+    font-size: 16px;
+    margin-top: 8px;
+    padding: 10px 20px;
+    background-size: cover;
+    background-position: 30%;
+  }
+}

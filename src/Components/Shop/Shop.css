@@ -1,0 +1,206 @@
+.shopBox-container {
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.shopbox-header {
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #ab8262;
+  background-color: #f1f0ed;
+  border-radius: 10px;
+  padding: 10px;
+}
+.collection-container {
+  height: 75vh;
+  width: 60vw;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.saree-image {
+  position: relative;
+  height: 75vh;
+  width: 60vw;
+  background-image: url("../../Images/images/2-29.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.saree-text {
+  position: absolute;
+  right: 0;
+  background-color: #f1f0ed;
+  opacity: 0.975;
+  height: 100%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.saree-text h2 {
+  font-size: 32px;
+  color: #ab8262;
+  padding: 10px;
+}
+.saree-text a,
+.salwar-text a,
+.shoe-text a {
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ab8262;
+  border-radius: 10px;
+  color: #f1f0ed;
+  font-weight: 500;
+}
+
+.saree-text a:hover,
+.salwar-text a:hover,
+.shoe-text a:hover {
+  background-color: #f1f0ed;
+  color: #ab8262;
+  font-weight: 600;
+}
+
+.salwar-image,
+.shoe-image {
+  position: relative;
+}
+
+.salwar-image::before,
+.salwar-image::after,
+.shoe-image::before,
+.shoe-image::after {
+  height: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+}
+
+.salwar-text,
+.shoe-text {
+  height: 450px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  z-index: 2;
+  transition-delay: 0.1s;
+}
+
+.salwar-text h2,
+.shoe-text h2 {
+  font-size: 32px;
+  color: #ab8262;
+  padding: 10px;
+}
+
+.salwar-image:hover::before,
+.salwar-image:hover::after,
+.shoe-image:hover::before,
+.shoe-image:hover::after {
+  opacity: 1;
+}
+
+.salwar-image:hover > img,
+.shoe-image:hover > img {
+  opacity: 0.2;
+}
+
+.salwar-image:hover .salwar-text,
+.shoe-image:hover .shoe-text {
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .shopbox-header {
+    font-size: 28px;
+  }
+  .saree-image {
+    height: 60vh;
+  }
+  .salwar-text,
+  .shoe-text {
+    height: 300px;
+  }
+  .saree-text h2,
+  .salwar-text h2,
+  .shoe-text h2 {
+    font-size: 28px;
+  }
+  .collection-container {
+    height: 300px;
+  }
+  .salwar-image img,
+  .shoe-image img {
+    width: 200px;
+  }
+}
+@media (max-width: 700px) {
+  .saree-image {
+    position: relative;
+  }
+  .saree-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+    height: 35%;
+    width: 100%;
+    gap: 10px;
+  }
+}
+@media (max-width: 550px) {
+  .collection-container {
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+  }
+  .shopbox-header {
+    font-size: 24px;
+    padding: 5px;
+  }
+  .saree-image {
+    height: 40vh;
+  }
+  .saree-text h2 {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .salwar-text h2,
+  .shoe-text h2 {
+    font-size: 22px;
+    padding: 10px;
+  }
+  .saree-text a,
+  .salwar-text a,
+  .shoe-text a {
+    font-size: 16px;
+  }
+}

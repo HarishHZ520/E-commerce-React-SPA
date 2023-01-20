@@ -1,0 +1,44 @@
+.sign-up {
+  font-family: "Merienda One", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #ab8262;
+  border: none;
+  color: #f1f0ed;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .sign-up {
+    font-size: 16px;
+    padding: 8px;
+    font-weight: 400;
+    letter-spacing: normal;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .sign-up {
+    font-size: 12px;
+    padding: 6px;
+  }
+  .user-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .sign-up {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    background-color: #ab8262;
+  }
+}
