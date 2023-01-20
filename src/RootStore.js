@@ -5,7 +5,6 @@ import { Outlet } from "react-router";
 const RootStore = () => {
   return (
     <div>
-      {/* <Shop /> */}
       <Outlet />
     </div>
   );
