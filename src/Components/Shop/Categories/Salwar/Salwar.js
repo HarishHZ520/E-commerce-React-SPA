@@ -18,7 +18,7 @@ const Salwar = () => {
         {SalwarList.map((items, index) => (
           <div className="item-container" key={items.id}>
             <h2 className="item-container-head">{items.title}</h2>
-            <img src={items.image} alt="image" className="item-con-img"></img>
+            <img src={items.image} alt="salwar" className="item-con-img"></img>
             <Link to={`${items.id}`} className="item-btn">
               <BiUpArrow className="item-btn-up" />
               View this
